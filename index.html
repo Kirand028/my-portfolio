@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/solid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+        <div class="logo"><u>Kirana</u></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo"><u>Kirana</u></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">skill</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./project-img/kiran.png"  alt="Kirana profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kirana</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('')"><i class="fa fa-download"></i>&nbsp; Download</button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'"><i class="fa fa-phone"></i>&nbsp; Contact</button>
+        </div>
+        <div id="socials-container">
+          <a href="http://www.linkedin.com/in/kiran-devadiga-654b2827a"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Kirand028"> <i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <i class="fa fa-graduation-cap" style="font-size: 20px; color:royalblue"></i>
+              <h3>Education</h3>
+              <p>Bachelor's Degree - BCA<br />(Bachelor of Computer Applications)</p>
+            </div>
+            <div class="details-container">
+              <i class="fas fa-award" style="font-size: 20px; color:blue"></i>
+              <h3>Certification</h3>
+              <p>Full stack with Java<br/>(Technologies - Java, MySQL, React, JavaScript)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm <strong>Kirana</strong>, a 21-year-old with a <strong>BCA</strong> (Bachelor of Computer Apllications) 
+                        qualification. I recently graduated from "Bhandarkars' Arts and Science College Kundapura" under 
+                        <strong>Mangalore University</strong> and I'm eager to embark on my professional journey.
+                        As a fresher, I bring a fresh perspective and a keen willingness to learn. 
+                        I'm excited to apply my skills and contribute to new and exciting projects in the field.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill">
+      <p class="section__text__p1">My Technical</p>
+      <h1 class="title">Skills</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <i style="color: #E44D26;" class="fab fa-html5"></i>
+                <div>
+                  <h3>HTML5</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #777BB3;" class="fab fa-php"></i> 
+                <div>
+                  <h3>PHP</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #264DE4;" class="fab fa-css3-alt"></i>
+                <div>
+                  <h3>CSS3</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #00758F;" class="fas fa-database"></i> 
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #F7DF1E;" class="fab fa-js-square"></i>
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #F80000;" class="fas fa-database"></i>
+                <div>
+                  <h3>Oracle</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #563D7C;" class="fab fa-bootstrap"></i>
+                <div>
+                  <h3>Bootstrap</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="skill-sub-title">Other skills</h2>
+            <div class="article-container">
+              <article>
+                <i style="color: #007396;" class="fab fa-java"></i>
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #4B8BBE;" class="fab fa-python"></i>
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #00599C;" class="fas fa-code"></i>
+                <div>  
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #555555;" class="fas fa-code"></i>
+                <div>
+                  <h3>C prog.</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #555555;" class="fas fa-code"></i>
+                <div>
+                  <h3>OOPs</h3>
+                </div>
+              </article>
+              <article>
+                <i style="color: #D83B01;" class="fas fa-file-alt"></i>
+                <div>
+                  <h3>MS Office</h3>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skill-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container" id="carousel">
+              <img src="" id="displayedImage" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="skill-sub-title project-title" onclick="toggleData(1)" title="View Description">Hostel <i class="fas fa-caret-down"></i></h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kirand028/hostel_project.git'">Github</button>
+              <button class="btn btn-color-2 project-btn" id="nextImageButton">Screenshot</button>
+            </div>
+            <div class="project-description close" id="description1" onclick="toggleData(1)">
+              &bigstar;A Hostel Management system belongs to the web and database application category.
+              <br><hr>&bigstar;It has many modules to manage aspects of running a hostel, such as student registration, managing rooms, wardens, and more.
+              <br><hr>&bigstar;The main objective of hostel management system is to reduce the paper works and manage all the 
+              activities like student record, warden record and other related task on computer. This system is efficient and effective.
+              <br><hr>&bigstar;Technologies used - HTML5, CSS3, JavaScript, PHP, MySQL, Xampp.
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container" id="carousel">
+              <img src="./project-img/KiChatnew.png" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="skill-sub-title project-title" onclick="toggleData(2)" title="View Description">KiChat <i class="fas fa-caret-down"></i></h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kirand028/KiChat.git'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='http://kichat.talk4fun.net/kichat/login.html'">Live Demo</button>
+            </div>
+            <div class="project-description close" id="description2" onclick="toggleData(2)">
+              &bigstar; <a style="color:#385bf7;" href="https://kichat.000webhostapp.com/kichat/login.html">Alternate Link</a>
+              <br>&bigstar;KiChat is like a social media and belongs to the web and database application category. 
+              <br><hr>&bigstar;Here you can create profile and make friends and Chat with them in real time, also you can post or view others post.
+              <br><hr>&bigstar;You can chat with your friends in real time.
+              <br><hr>&bigstar;Technologies used - HTML5, CSS3, JavaScript, Ajax, PHP, MySQL, Xampp.
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container" id="carousel">
+              <img src="./project-img/postek.png" alt="Project 3" class="project-img"/>
+            </div>
+            <h2 class="skill-sub-title project-title" onclick="toggleData(3)" title="View Description">Post App <i class="fas fa-caret-down"></i></h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Kirand028/PosTek.git'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='http://ktech.42web.io/postek/index.html'">Live Demo</button>
+            </div>
+            <div class="project-description close" id="description3" onclick="toggleData(3)">
+              &bigstar; <a style="color:#385bf7;" href="https://lyrikmp3.000webhostapp.com/chat/login.html">Alternate Link</a>
+              <br>&bigstar;Postek is a basic social media web app and it belongs to database application category. 
+              <br><hr>&bigstar;Here you can make friends, create post and view your friend's post. 
+              <br><hr>&bigstar;Technologies used - HTML5, CSS3, JavaScript, PHP, MySQL, Xampp.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section> 
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <i class="fas fa-envelope" style="font-size: 20px; color: #ffbf28;"></i>
+          <p><a href="mailto:kirandevadiga0328@gmail.com" title="kirandevadiga0328@gmail.com">Kirana</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fab fa-linkedin" style="font-size: 20px; color: #385bf7;"></i>
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fab fa-telegram" style="font-size: 20px; color: #505156;"></i>
+          <p><a href="http://t.me/kirand028">Telegram</a></p>
+        </div>
+        <div class="contact-info-container">
+          <i class="fas fa-envelope" style="font-size: 20px; color: #4B8BBE;"></i>
+          <p><a href="mailto:kirand4661@gmail.com" title="kirand4661@gmail.com">Alt-Email</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <p style="text-align: center; margin-top: -70px;">Thank You</p>
+    
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+
+      function toggleData(projectNumber) {
+        const description = document.getElementById(`description${projectNumber}`);
+        description.classList.toggle("open");
+      }
+
+    const imageUrls = [
+
+    //home
+    './project-img/hostel/hostel-for.jpg',
+
+    // Login and register
+    './project-img/hostel/login-Register/login.png',
+    './project-img/hostel/login-Register/confirm_new_password.png',
+    './project-img/hostel/login-Register/forgot_password.png',
+    './project-img/hostel/login-Register/payment.png',
+    './project-img/hostel/login-Register/register.png',
+    './project-img/hostel/login-Register/verify_otp.png',
+    
+    // Admin modules
+    './project-img/hostel/Admin/admin_dashboard.png',
+    './project-img/hostel/Admin/admin_add_rooms.png',
+    './project-img/hostel/Admin/admin_delete_rooms.png',
+    './project-img/hostel/Admin/admin_update_rooms.png',
+    './project-img/hostel/Admin/admin_view_all_room.png',
+
+    './project-img/hostel/Admin/admin_add_warden.png',
+    './project-img/hostel/Admin/admin_delete_warden.png',
+    './project-img/hostel/Admin/admin_update_warden.png',
+    './project-img/hostel/Admin/admin_viewall_warden.png',
+
+    './project-img/hostel/Admin/admin_manage_student.png',
+    './project-img/hostel/Admin/admin_delete_student.png',
+    './project-img/hostel/Admin/admin_update_student.png',
+    './project-img/hostel/Admin/admin_search.png',
+    
+    './project-img/hostel/Admin/admin_event.png',
+    './project-img/hostel/Admin/admin_food.png',
+    './project-img/hostel/Admin/admin_payment_view.png',
+
+    // Warden Module
+    './project-img/hostel/Warden/warden_profile.png',
+    './project-img/hostel/Warden/meal.png',
+
+    // Student Module
+    './project-img/hostel/Student/view_profile.png',
+    './project-img/hostel/Student/Update_details.png',
+    './project-img/hostel/Student/view_event.png',
+
+    ];
+
+    const displayedImage = document.getElementById('displayedImage');
+    const nextImageButton = document.getElementById('nextImageButton');
+    let currentIndex = -1;
+
+    function displayNextImage() {
+
+      const totalElements = imageUrls.length;
+      currentIndex = (currentIndex + 1) % imageUrls.length;
+      displayedImage.src = imageUrls[currentIndex];
+      displayedImage.style.width = '100%';
+      displayedImage.style.height = '150px';
+      displayedImage.style.cursor = 'pointer';
+
+      if(currentIndex !== -1) {
+        nextImageButton.innerHTML = 'Next <i class="fas fa-chevron-right"></i>('+ currentIndex + '/' + totalElements + ')';
+      }
+      else  {
+        nextImageButton.innerHTML = 'Screenshot';
+      }
+
+      displayedImage.addEventListener('mouseover', function() {
+        this.style.boxShadow = '2px 2px 2px #e8e8e8, -2px -2px 2px #f8f8f8';
+      });
+      displayedImage.addEventListener('mouseout', function() {
+        this.style.boxShadow = 'none';
+      });
+
+    }
+    nextImageButton.addEventListener('click', displayNextImage);
+    // Display initial empty image
+    displayNextImage();
+
+    displayedImage.addEventListener('click', function() {
+      window.open(displayedImage.src, '_blank');
+    });
+
+    </script>
+  </body>
+</html>

@@ -386,7 +386,7 @@ article {
 }
 
 .other-projects .card:nth-child(1){
-  background-image: url("C:/Users/kiran/Music/todo.jpg");
+  background-image: url("../todo.jpg");
 }
 
 .other-projects .card:nth-child(2){

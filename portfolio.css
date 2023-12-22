@@ -376,7 +376,7 @@ article {
 }
 
 .other-projects .card a p{
-  color: rgb(78, 0, 0);
+  color: #000000;
   font-size: 15px;
 }
 
@@ -386,19 +386,19 @@ article {
 }
 
 .other-projects .card:nth-child(1){
-  background-image: url("../todo.jpg");
+  background-image: url("./project-img/todo.jpg");
 }
 
 .other-projects .card:nth-child(2){
-  background-image: url("C:/Users/kiran/Music/alarm.jpg");
+  background-image: url("./project-img/alarm.jpg");
 }
 
 .other-projects .card:nth-child(3){
-  background-image: url("C:/Users/kiran/Music/weather.jpg");
+  background-image: url("./project-imgweather.jpg");
 }
 
 .other-projects .card:nth-child(4){
-  background-image: url("C:/Users/kiran/Music/login.jpg");
+  background-image: url("./project-img/login.jpg");
   background-size: cover;
 }
 

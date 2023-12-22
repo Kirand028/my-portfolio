@@ -123,15 +123,11 @@ section {
 }
 
 #profile {
-  margin: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
   gap: 150px;
   height: 85vh;
   overflow: hidden;
-  background: linear-gradient(to bottom right, rgb(255, 255, 255) 40%, rgb(236, 236, 236) 60%);
-  box-shadow: inset 50px -50px 150px #ffffff;
 }
 
 .section__pic-container {

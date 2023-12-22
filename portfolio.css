@@ -394,7 +394,7 @@ article {
 }
 
 .other-projects .card:nth-child(3){
-  background-image: url("./project-imgweather.jpg");
+  background-image: url("./project-img/weather.jpg");
 }
 
 .other-projects .card:nth-child(4){
